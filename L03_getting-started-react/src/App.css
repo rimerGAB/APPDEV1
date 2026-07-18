@@ -1,0 +1,166 @@
+/* ===== RESET & BASE ===== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    line-height: 1.7;
+}
+
+.app {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 3rem;
+    background: #ffffff;
+    min-height: 100vh;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.04);
+}
+
+/* ===== HEADER ===== */
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0f172a;
+}
+
+.divider-line {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    border: none;
+    border-radius: 4px;
+    margin: 0.5rem auto 0;
+}
+
+/* ===== PROFILE ===== */
+.profile {
+    margin-bottom: 2rem;
+}
+
+.profile h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1.2rem;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.info-list li {
+    font-size: 1.05rem;
+    color: #1e293b;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.info-list li:last-child {
+    border-bottom: none;
+}
+
+.info-list strong {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+/* ===== DIVIDERS ===== */
+.section-divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #e2e8f0, transparent);
+    margin: 2rem 0;
+}
+
+/* ===== REFLECTION ===== */
+.reflection {
+    margin-bottom: 2rem;
+}
+
+.reflection h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
+
+.reflection p {
+    font-size: 1.02rem;
+    color: #334155;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+}
+
+.reflection p:last-child {
+    margin-bottom: 0;
+}
+
+/* ===== SKILLS LEARNED ===== */
+.skills-learned {
+    margin-bottom: 2rem;
+}
+
+.skills-learned h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.5rem;
+}
+
+.skills-list li {
+    font-size: 0.98rem;
+    color: #1e293b;
+    padding: 0.3rem 0;
+}
+
+@media (max-width: 480px) {
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: 0.5rem;
+    border-top: 1px solid #f1f5f9;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
