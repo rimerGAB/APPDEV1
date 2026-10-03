@@ -3,26 +3,34 @@
 <head>
   <title>Attendance Monitoring</title>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif; padding: 20px;">
   <h1>Attendance Monitoring System</h1>
 
-  <button id="changeColorBtn">Change Dashboard Background</button>
+  <button id="changeColorBtn" style="padding: 10px 20px; font-size: 16px;">Change Dashboard Background</button>
 
-  <p id="message">Attendance status will update in 2 seconds.</p>
+  <p id="clickCount">Clicks: 0</p>
+
+  <p id="message">Attendance status will update in 3 seconds...</p>
 
   <script>
     const button = document.getElementById("changeColorBtn");
-
-    button.addEventListener("click", () => {
-      const color = prompt("What color should the dashboard background be?");
-      document.body.style.backgroundColor = color;
-    });
-
+    const clickCount = document.getElementById("clickCount");
     const message = document.getElementById("message");
 
+    const colors = ["lightblue", "lightyellow", "lightgreen", "lightcoral", "lavender"];
+    let clicks = 0;
+
+    button.addEventListener("click", () => {
+      document.body.style.backgroundColor = colors[clicks % colors.length];
+      clicks++;
+      clickCount.textContent = "Clicks: " + clicks;
+    });
+
     setTimeout(() => {
-      message.textContent = "Attendance status updated automatically!";
-    }, 2000);
+      let now = new Date();
+      let time = now.toLocaleTimeString();
+      message.textContent = "Attendance updated at " + time;
+    }, 3000);
   </script>
 </body>
-</html>
+</html>

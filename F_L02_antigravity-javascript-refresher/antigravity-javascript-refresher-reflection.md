@@ -100,3 +100,17 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 nag add pa add po ako ng new conditions and nag try ng for loops since attendanace po yung theme ng ng file ko dati and mejo naiba nga yung conditions and mas napahaba po siya. na exlplain naman po and lumabas po yung attendance.
 
 
+## Part 7
+
+### Filename
+07_dom.html
+
+### Prompt
+I'm practicing JavaScript DOM manipulation and events.
+
+Work only on the Part 7 file. Improve the current attendance dashboard by making the button interaction and automatic status update more useful while keeping the existing DOM and event concepts.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+pina ayos ko po yung html elements and nag tweaks ng onti yung ginawa niya and binabasa ko po yung detailed explanation niya per line and mas madali siyang maintindihan pag per line , since nag Dom po tayo rito mejo gets ko na kaagad kung anong binago niya.
