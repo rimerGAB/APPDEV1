@@ -53,3 +53,18 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 
 ### Reflection
 Tinry ko po i gamitin yung functions tapos pina ayos ko po yung greet , square tapos mga calculator examples and nag pa bago po ako ng small changes and nag tatry pa rin po kung anong lalabas na result.
+
+## Part 4
+
+### Filename
+04_objects.js
+
+### Prompt
+I'm practicing JavaScript objects.
+
+Work only on the Part 4 file. Use the current aboutMe object with name, age, course, the introduce method, and the hobby property. Make a few small changes to the object or its values so I can experiment with how it works.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+base po doon sa prompt na ginawa ko specific ko po pinaayos yung file yung name age and other variables tapos yung iba pa po. pina bago ko po yung iba and base po rito hindi po siya ganon ka clea kasi nga po pinalgyan ko lang ng small changes without saying kung ano ba talga gusto kong baguhin.
