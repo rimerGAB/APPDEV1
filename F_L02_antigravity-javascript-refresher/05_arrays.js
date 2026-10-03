@@ -1,11 +1,14 @@
-let favoriteFoods = ["Sopas", "Pancit", "Spagetti"];
+let favoriteFoods = ["Adobo", "Sinigang", "Kare-Kare"];
 
-favoriteFoods.push("Champorado");
-favoriteFoods.shift();
+favoriteFoods.push("Lechon");
+favoriteFoods.push("Lumpia");
+let removed = favoriteFoods.shift();
+console.log("Removed:", removed);
 
+console.log("Count:", favoriteFoods.length);
 for (const food of favoriteFoods) {
   console.log(food);
 }
 
-const liked = favoriteFoods.map(food => "I like " + food);
+const liked = favoriteFoods.map(food => "🍽️ " + food);
 console.log(liked);

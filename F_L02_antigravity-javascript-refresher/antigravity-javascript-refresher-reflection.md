@@ -68,3 +68,19 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 
 ### Reflection
 base po doon sa prompt na ginawa ko specific ko po pinaayos yung file yung name age and other variables tapos yung iba pa po. pina bago ko po yung iba and base po rito hindi po siya ganon ka clea kasi nga po pinalgyan ko lang ng small changes without saying kung ano ba talga gusto kong baguhin.
+
+## Part 5
+
+### Filename
+05_arrays.js
+
+### Prompt
+I'm practicing JavaScript arrays.
+  
+Work only on the Part 5 file. Improve the current favoriteFoods example by changing the variables or adding a useful array operation while keeping push, shift, for...of, and map.
+  
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+So base po sa lumabas sa prompt sinunod niya naman po and binago ung ibang variables and laman ng arrays may inadd din siyang bagong lines and na gets ko naman po base don sa explanation niya pag tapos ng prompt.
+
