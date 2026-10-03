@@ -130,3 +130,17 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 ### Reflection
 nag map po ata yung ginawa ng ai and nag use din ng spread operators and nag bagop siya ng mga existing na examples na andito before mas humaba siya and nag lagaya ng new functions and mga array pina babago niya yung ibanag variables.
 
+## Part 9
+
+### Filename
+09_tricky_parts.js
+
+### Prompt
+I'm practicing some tricky parts of JavaScript.
+
+Work only on the Part 9 file. Improve the current examples for equality, undefined and null, this in regular and arrow functions, and array copying by changing the values or examples so the differences are easier to see.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+pinabago ko yung pag kaka structure and yung examples na laman ng variables nag lagay siya ng mga bagong examples yung value before may iba nabago and iba nag stay pero gamit ng ibang operation or approach pero mas malinis na siya.
