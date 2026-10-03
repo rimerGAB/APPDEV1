@@ -24,4 +24,17 @@ Finally, explain what each line of the completed file does.]
 
 ---
 
+## Part 2
 
+### Filename
+02_data_types.js
+
+### Prompt
+I'm practicing JavaScript data types.
+
+Work only on the Part 2 file. Use the current examples with name, age, isStudent, typeof, a and b, arithmetic, and == vs ===. Make some changes to the examples so I can experiment with the results.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+pinabago ko po kay agy yung operators and the variables na ginamit ko rito and nag experiment sa mga variables na ginamit and nag try ng mga gawa gawang prompts pero ginamit ko po yung anatomy base sa slide.
