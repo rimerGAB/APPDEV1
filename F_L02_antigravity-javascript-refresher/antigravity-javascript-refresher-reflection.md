@@ -114,3 +114,19 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 
 ### Reflection
 pina ayos ko po yung html elements and nag tweaks ng onti yung ginawa niya and binabasa ko po yung detailed explanation niya per line and mas madali siyang maintindihan pag per line , since nag Dom po tayo rito mejo gets ko na kaagad kung anong binago niya.
+
+## Part 8
+
+### Filename
+08_essential_features.js
+
+### Prompt
+I'm practicing some essential JavaScript features.
+
+Work only on the Part 8 file. Improve the current hobbies, student, and numbers examples by changing the data or using the same features in a useful way.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+nag map po ata yung ginawa ng ai and nag use din ng spread operators and nag bagop siya ng mga existing na examples na andito before mas humaba siya and nag lagaya ng new functions and mga array pina babago niya yung ibanag variables.
+
