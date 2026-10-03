@@ -38,3 +38,18 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 
 ### Reflection
 pinabago ko po kay agy yung operators and the variables na ginamit ko rito and nag experiment sa mga variables na ginamit and nag try ng mga gawa gawang prompts pero ginamit ko po yung anatomy base sa slide.
+
+## Part 3
+
+### Filename
+03_functions.js
+
+### Prompt
+I'm practicing JavaScript functions.
+
+Work only on the Part 3 file. Use the current greet, square, and calculator examples. Make a few small changes to the values or function examples so I can experiment with the results.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+Tinry ko po i gamitin yung functions tapos pina ayos ko po yung greet , square tapos mga calculator examples and nag pa bago po ako ng small changes and nag tatry pa rin po kung anong lalabas na result.
