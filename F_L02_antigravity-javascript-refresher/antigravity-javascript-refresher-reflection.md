@@ -84,3 +84,19 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 ### Reflection
 So base po sa lumabas sa prompt sinunod niya naman po and binago ung ibang variables and laman ng arrays may inadd din siyang bagong lines and na gets ko naman po base don sa explanation niya pag tapos ng prompt.
 
+## Part 6
+
+### Filename
+06_control_structures.js
+
+### Prompt
+I'm practicing JavaScript conditions and loops.
+
+Work only on the Part 6 file. Improve the current score, for loop, and attendance while loop examples by changing the values or adding a useful condition.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+nag add pa add po ako ng new conditions and nag try ng for loops since attendanace po yung theme ng ng file ko dati and mejo naiba nga yung conditions and mas napahaba po siya. na exlplain naman po and lumabas po yung attendance.
+
+

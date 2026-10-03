@@ -1,4 +1,4 @@
-let score = 92;
+let score = 75;
 
 if (score >= 90) {
   console.log("A");
@@ -6,17 +6,21 @@ if (score >= 90) {
   console.log("B");
 } else if (score >= 70) {
   console.log("C");
+} else if (score >= 60) {
+  console.log("D");
 } else {
   console.log("F");
 }
 
-for (let i = 1; i <= 5; i++) {
-  console.log(i);
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log("Even:", i);
+  }
 }
 
-let count = 0;
+let day = 1;
 
-while (count < 3) {
-  console.log("Attendance checked");
-  count++;
+while (day <= 5) {
+  console.log("Day " + day + ": Present");
+  day++;
 }
