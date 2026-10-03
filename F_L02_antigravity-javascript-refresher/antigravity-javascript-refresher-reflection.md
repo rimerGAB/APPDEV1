@@ -144,3 +144,18 @@ Before editing, tell me your plan. After editing, run the file and explain the c
 
 ### Reflection
 pinabago ko yung pag kaka structure and yung examples na laman ng variables nag lagay siya ng mga bagong examples yung value before may iba nabago and iba nag stay pero gamit ng ibang operation or approach pero mas malinis na siya.
+
+## Part 10
+
+### Filename
+10_let_const.js
+
+### Prompt
+I'm practicing let, const, and var in JavaScript.
+
+Work only on the Part 10 file. Improve the current course, studentName, and schoolYear examples by changing the values or adding a useful example that shows the difference between let, const, and var.
+
+Before editing, tell me your plan. After editing, run the file and explain the changes.
+
+### Reflection
+yung pag gamit ng var let and const pina improve ko lang and pina iba yung values mejo nag add siya ng mas marami and mas inayos niya yung structure and add some example base nga po sa nilagay kong prompt
