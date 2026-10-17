@@ -1,0 +1,28 @@
+:root {
+  --font-family: "Cantarell", sans-serif;
+
+  --color-primary: #5b86e5;
+  --color-panel: #a9c0f0;
+  --color-white: #fff;
+  --color-text: #000;
+  --color-border: #333;
+  --color-placeholder: #9a9a9a;
+
+  --font-size-body: 16px;
+  --font-size-heading: 28px;
+  --font-size-tagline: 32px;
+
+  --font-weight-bold: 700;
+  --letter-spacing: 1px;
+
+  --space-small: 16px;
+  --space-medium: 24px;
+  --space-large: 28px;
+
+  --radius-button: 8px;
+  --radius-panel: 60px;
+  --form-width: 575px;
+  --button-height: 60px;
+
+  --logo-shadow: 0 20px 20px rgba(60, 80, 140, 0.35);
+}
