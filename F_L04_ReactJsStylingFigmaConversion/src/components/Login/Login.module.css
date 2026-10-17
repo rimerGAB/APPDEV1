@@ -113,3 +113,82 @@
     font-weight: var(--font-weight-bold);
     text-decoration: none;
 }
+
+/* ========== Tablet / Phone (≤ 768px) ========== */
+@media (max-width: 768px) {
+    /* --- Container: stack vertically, fill viewport --- */
+    .login {
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    /* --- Left panel: compact branding bar --- */
+    .left {
+        width: 100%;
+        padding: var(--space-medium) var(--space-small);
+        align-items: center;
+    }
+
+    .tagline {
+        display: none;
+    }
+
+    .logo {
+        height: 60px;
+        max-height: none;
+        margin: 0;
+        filter: none;
+    }
+
+    .link {
+        display: none;
+    }
+
+    /* --- Right panel: full width, top-rounded --- */
+    .right {
+        flex: 1 0 auto;
+        border-radius: var(--radius-panel) var(--radius-panel) 0 0;
+        padding: var(--space-medium);
+    }
+
+    /* --- Form: fill the panel --- */
+    .form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form h2 {
+        margin-bottom: 32px;
+    }
+
+    .form input {
+        margin-bottom: 20px;
+    }
+
+    .form button {
+        margin-top: 12px;
+    }
+}
+
+/* ========== Small phones (≤ 480px) ========== */
+@media (max-width: 480px) {
+    .form h2 {
+        font-size: 22px;
+    }
+
+    .form input {
+        font-size: 14px;
+    }
+
+    .form button {
+        height: 50px;
+    }
+
+    .signup {
+        font-size: 14px;
+    }
+}
