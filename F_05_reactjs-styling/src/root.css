@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --color-background: #ffffff;
+  --color-heading: #7a999c;
+  --color-text: #567281;
+  --color-accent: #5f7c8d;
+  --color-button: #4b687a;
+  --color-placeholder: rgb(95 124 141 / 55%);
+
+  /* Typography */
+  --font-main: "Istok Web", sans-serif;
+  --font-size-base: 16px;
+
+  /* Shape */
+  --radius-panel: 20px;
+  
+    /* Login layout */
+  --login-page-width: 1280px;
+  --login-page-height: 832px;
+  --login-form-width: 432px;
+
+  /* Control styles */
+  --color-tab-inactive: rgb(95 124 141 / 39%);
+  --color-focus: #567281;
+  --border-width-control: 3px;
+  
+}
+
